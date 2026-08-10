@@ -26,17 +26,17 @@ A full-stack exam seating arrangement system that helps educational institutions
 📖 About the Project
 
 Traditional manual creation of exam seating plans is time-consuming and error-prone — especially for large student groups. This project automates that process by providing:
-'''
+```
 ✔ Student and exam data management
 ✔ Automated seat generation per exam hall
 ✔ A user-friendly frontend UI
 ✔ A backend API to power the logic
 ✔ Reports or assignments of students to seats
-'''
+```
 This improves accuracy, saves time, and removes human error from seating assignments.
 
 ✨ Features
-'''
+```
 📋 Add/Edit/View student records
 
 🏫 Manage exam halls and capacities
@@ -48,7 +48,7 @@ This improves accuracy, saves time, and removes human error from seating assignm
 📦 Organized backend & frontend separation
 
 🔐 Basic validation and status feedback
-'''
+```
 🗂️ Project Structure
 ```
 examseating/
@@ -70,6 +70,7 @@ examseating/
 └── README.md
 ```
 💻 Technologies Used
+```
 Layer	Technologies
 Backend	Node.js, Express.js,seating logic
 Frontend	React.js
@@ -77,7 +78,7 @@ Database	MongoDB / MySQL (adjustable)
 API	RESTful APIs
 UI	HTML, CSS, JavaScript
 State/HTTP	Axios or Fetch
-
+```
 You can adapt the database and API to fit your institution’s needs.
 
 🧩 Setup & Installation
@@ -142,21 +143,17 @@ Students aligned to rooms and specific seats
 Status displayed in the frontend UI
 
 🎓 Usage Examples
+```
 Operation	Description
 Add Student	Add name, roll number, course, etc.
 Add Exam Hall	Specify room number and total seats
 Generate Seating	Run algorithm to assign students to seats
 View Assignments	List all assigned seats by room
+```
 🤝 Contributing
 
 Contributions are welcome! You can:
-
 Improve UI/UX
-
-Add authentication
-
-Generate printable PDF seating plans
-
 Add analytics (like occupancy %)
 
 Please submit an issue or pull request.
