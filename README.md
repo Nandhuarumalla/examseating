@@ -26,17 +26,17 @@ A full-stack exam seating arrangement system that helps educational institutions
 📖 About the Project
 
 Traditional manual creation of exam seating plans is time-consuming and error-prone — especially for large student groups. This project automates that process by providing:
-
+'''
 ✔ Student and exam data management
 ✔ Automated seat generation per exam hall
 ✔ A user-friendly frontend UI
 ✔ A backend API to power the logic
 ✔ Reports or assignments of students to seats
-
+'''
 This improves accuracy, saves time, and removes human error from seating assignments.
 
 ✨ Features
-
+'''
 📋 Add/Edit/View student records
 
 🏫 Manage exam halls and capacities
@@ -48,8 +48,9 @@ This improves accuracy, saves time, and removes human error from seating assignm
 📦 Organized backend & frontend separation
 
 🔐 Basic validation and status feedback
-
+'''
 🗂️ Project Structure
+'''
 examseating/
 ├── backend/                   # Backend API server
 │   ├── controllers/
@@ -67,7 +68,7 @@ examseating/
 ├── .gitignore
 ├── package.json
 └── README.md
-
+'''
 💻 Technologies Used
 Layer	Technologies
 Backend	Node.js, Express.js,seating logic
@@ -92,7 +93,7 @@ npm install
 Create environment variables (e.g., .env):
 
 PORT=5000
-DB_URI=your_database_connection_string
+
 
 
 Start the backend server:
