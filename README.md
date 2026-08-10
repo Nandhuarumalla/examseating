@@ -50,7 +50,7 @@ This improves accuracy, saves time, and removes human error from seating assignm
 🔐 Basic validation and status feedback
 '''
 🗂️ Project Structure
-'''
+```
 examseating/
 ├── backend/                   # Backend API server
 │   ├── controllers/
@@ -68,7 +68,7 @@ examseating/
 ├── .gitignore
 ├── package.json
 └── README.md
-'''
+```
 💻 Technologies Used
 Layer	Technologies
 Backend	Node.js, Express.js,seating logic
